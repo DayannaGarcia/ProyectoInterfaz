@@ -12,6 +12,12 @@ namespace ProyectoCIC
 		public MainPage()
 		{
 			InitializeComponent();
-		}
-	}
+            btnentrar.Clicked += Btnentrar_Clicked;
+        }
+
+        private async void Btnentrar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new InicioSesion());
+        }
+    }
 }
