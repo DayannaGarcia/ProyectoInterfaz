@@ -10,7 +10,7 @@
         <BoxView BackgroundColor="#fff" 
                      HeightRequest="1">
         </BoxView>
-        <Label Text="Hola"
+        <Label Text=""
                    VerticalOptions="Fill" 
                    BackgroundColor="#004c5a" 
                    HeightRequest="100">
