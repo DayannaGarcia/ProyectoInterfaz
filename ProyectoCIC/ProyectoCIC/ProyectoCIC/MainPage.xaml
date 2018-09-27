@@ -10,7 +10,7 @@
         <BoxView BackgroundColor="#fff" 
                      HeightRequest="1">
         </BoxView>
-        <Label Text=""
+        <Label Text="Hola"
                    VerticalOptions="Fill" 
                    BackgroundColor="#004c5a" 
                    HeightRequest="100">
@@ -22,7 +22,7 @@
                  
                    BackgroundColor="#cceaeb"
                    TextColor="Black"
-                   FontSize="30"
+                   FontSize="28"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
                    HeightRequest="100"
@@ -32,6 +32,7 @@
 
         <Button x:Name="btnentrar" 
             Image="Escudosinfondo.png"
+                BackgroundColor="#cceaeb"
                Margin="0,50,0,0"/>
 
 
