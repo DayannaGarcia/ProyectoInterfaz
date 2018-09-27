@@ -8,15 +8,15 @@
                      Spacing="0" 
                      BackgroundColor="#cceaeb">
         <BoxView BackgroundColor="#fff" 
-                     HeightRequest="1">
+                     HeightRequest="0">
         </BoxView>
         <Label Text=""
                    VerticalOptions="Fill" 
                    BackgroundColor="#004c5a" 
-                   HeightRequest="100">
+                   HeightRequest="20">
         </Label>
         <BoxView BackgroundColor="#fff" 
-                     HeightRequest="1">
+                     HeightRequest="0">
         </BoxView>
         <Label Text=" Centro Instrucción Combita Auxiliares Bachilleres"
                  
@@ -26,14 +26,14 @@
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
                    HeightRequest="100"
-                   Margin="0,60,0,0"
+                   Margin="0,40,0,0"
                    />
 
 
         <Button x:Name="btnentrar" 
             Image="Escudosinfondo.png"
                 BackgroundColor="#cceaeb"
-               Margin="0,50,0,0"/>
+               Margin="0,40,0,0"/>
 
 
         <BoxView BackgroundColor="#fff" 
@@ -42,7 +42,7 @@
         <Label Text=""
                    VerticalOptions="EndAndExpand" 
                    BackgroundColor="#004c5a" 
-                   HeightRequest="100">
+                   HeightRequest="50">
         </Label>
     </StackLayout>
 

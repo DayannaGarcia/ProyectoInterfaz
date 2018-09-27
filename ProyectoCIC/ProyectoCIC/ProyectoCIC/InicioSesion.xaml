@@ -7,12 +7,12 @@
                      Spacing="0" 
                      BackgroundColor="#cceaeb">
             <BoxView BackgroundColor="#004c5a" 
-                     HeightRequest="1">
+                     HeightRequest="0">
             </BoxView>
             <Label Text=""
                    VerticalOptions="Fill" 
                    BackgroundColor="#004c5a" 
-                   HeightRequest="100">
+                   HeightRequest="20">
             </Label>
             <Button WidthRequest="100" 
                     HeightRequest="100"

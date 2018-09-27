@@ -12,7 +12,7 @@ namespace ProyectoCIC
 			InitializeComponent();
 
             var navigationPage = new NavigationPage(new MainPage());
-            navigationPage.BarBackgroundColor = Color.Black;
+            navigationPage.BarBackgroundColor = Color.FromHex("#004c5a");
             navigationPage.BarTextColor = Color.White;
             MainPage = navigationPage;
 
